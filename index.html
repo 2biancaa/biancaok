@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>A Jornada para o Artefato Místico</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <p>Você encontra um pergaminho antigo em uma loja de antiguidades. O pergaminho menciona um artefato místico escondido em uma terra distante e deixa pistas sobre como encontrá-lo. Decidido a encontrar o artefato, você começa sua jornada!</p>
+            <button class="btn-proximo" data-proximo="1">Ir para Machu Picchu</button>
+            <button class="btn-proximo" data-proximo="2">Explorar a Grande Barreira de Coral</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Você inicia sua busca em Machu Picchu, explorando as ruínas antigas para encontrar a primeira pista.</p>
+            <button class="btn-proximo" data-proximo="3">Procurar no templo principal</button>
+            <button class="btn-proximo" data-proximo="4">Desistir e voltar para casa</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Na Grande Barreira de Coral, você explora os recifes coloridos em busca de qualquer pista sobre o artefato místico.</p>
+            <button class="btn-proximo" data-proximo="5">Investigar as cavernas subaquáticas</button>
+            <button class="btn-proximo" data-proximo="6">Explorar as ilhas próximas</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>No templo principal, você encontra uma inscrição antiga que sugere que a próxima pista está na Grande Muralha da China.</p>
+            <button class="btn-proximo" data-proximo="7">Viajar para a Grande Muralha da China</button>
+        </div>
+        <div class="passo" id="passo-4">
+            <p>Você decide que a busca é muito arriscada e volta para casa, sempre se perguntando se teria encontrado o artefato.</p>
+            <button class="btn-proximo" data-proximo="0">Recomeçar a aventura</button>
+        </div>
+        <div class="passo" id="passo-5">
+            <p>Nas cavernas subaquáticas, você encontra um mapa escondido que indica que a próxima pista está na Grande Muralha da China.</p>
+            <button class="btn-proximo" data-proximo="7">Viajar para a Grande Muralha da China</button>
+        </div>
+        <div class="passo" id="passo-6">
+            <p>Explorando as ilhas, você não encontra nenhuma pista relevante e decide voltar para os recifes.</p>
+            <button class="btn-proximo" data-proximo="5">Investigar as cavernas subaquáticas</button>
+        </div>
+        <div class="passo" id="passo-7">
+            <p>Na Grande Muralha da China, você se depara com uma seção antiga da muralha e encontra um enigma que aponta para um templo perdido na Índia.</p>
+            <button class="btn-proximo" data-proximo="8">Seguir para o templo na Índia</button>
+            <button class="btn-proximo" data-proximo="2">Retornar e revisar a busca na Grande Barreira de Coral</button>
+        </div>
+        <div class="passo" id="passo-8">
+            <p>Você chega ao templo perdido na Índia, onde encontra uma sala secreta com o artefato místico que você procurava.</p>
+            <button class="btn-proximo" data-proximo="9">Explorar o artefato e seus segredos</button>
+        </div>
+        <div class="passo" id="passo-9">
+            <p>Dentro do templo, você descobre o artefato místico e decide estudá-lo para entender seus poderes e mistérios.</p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
